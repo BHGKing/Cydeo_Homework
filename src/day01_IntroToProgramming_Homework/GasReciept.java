@@ -1,4 +1,4 @@
-package day01_introToProgramming_homework;
+package day01_IntroToProgramming_Homework;
 
 public class GasReciept {
     public static void main(String[] args) {
