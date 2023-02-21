@@ -3,12 +3,15 @@ package day04_Primitive_Casting_Concatenation;
 public class SwapTwoVariables2 {
     public static void main(String[] args) {
 
-        int x = 10;
-        int y = 15;
+        int a = 25;
+        int b = 10;
 
+        a = a + b;
+        b = a - b;
+        a = a - b;
 
-        System.out.println("x = " + y);
-        System.out.println("y = " + x);
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
     }
 }
 /*
