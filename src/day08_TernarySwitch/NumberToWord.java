@@ -11,3 +11,14 @@ public class NumberToWord {
         System.out.println(result);
     }
 }
+/*
+1. Create a class called NumberToWord,
+		write a java program that can convert numbers between 0 ~ 9 to words
+			Ex:
+				number = 1;
+
+			output:
+				One
+
+		Note: MUST use ternary
+ */
