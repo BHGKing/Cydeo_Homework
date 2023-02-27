@@ -3,11 +3,19 @@ package day06_Intro_If_Statements;
 public class MedianNumber {
     public static void main(String[] args) {
 
-        int a = 10, b = 15, c =20;
+        int a = 50, b = 51, c = 52;
 
-        int median = (a + b + c) / 3;
+        if(a > b && a < c || a > c && a < b){
+            System.out.println(a + " 1is the median number");
+        }
 
-        System.out.println(median);
+        if(b > a && b < c || b > c && b < c){
+            System.out.println(b + " 2is the median number");
+        }
+
+        if(c > a && c < b || c > b && c < a){
+            System.out.println(c + " 3is the median number");
+        }
     }
 }
 /*
