@@ -25,7 +25,7 @@ public class EmailTask2 {
         String lastName = email.substring(underScoreIndex + 1, atSymbolIndex);
 
         // capitalizes first letter of last name and lowercase's everything else
-        lastName = email.substring( underScoreIndex + 1, atSymbolIndex).toUpperCase() + email.substring(underScoreIndex + 2, atSymbolIndex).toLowerCase();
+        lastName = email.substring( underScoreIndex + 1, underScoreIndex + 2).toUpperCase() + email.substring(underScoreIndex + 2, atSymbolIndex).toLowerCase();
 
         String domain = email.substring(beginningDomain, endingDomain);
 
