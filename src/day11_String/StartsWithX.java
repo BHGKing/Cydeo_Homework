@@ -15,8 +15,6 @@ public class StartsWithX {
            word = word.replaceFirst("x", "a");
 
             System.out.println(word);
-        }else {
-            System.out.println(word);
         }
 
     }
