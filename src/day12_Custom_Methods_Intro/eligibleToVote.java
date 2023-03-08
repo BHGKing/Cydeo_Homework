@@ -9,28 +9,14 @@ public class eligibleToVote {
 
     public static void eligibleToVote(int age, boolean isAmerican){
 
-        if (isAmerican == true){
+        if (age >= 18 && isAmerican == true){
 
-            if (age >= 18){
-
-                System.out.println("You are eligible to vote!");
-
-            }else {
-                System.out.println("You must be at least 18 years old");
-            }
+            System.out.println("You are eligible to vote!");
 
         }else {
             System.out.println("You cannot vote!");
         }
 
-
-
-
     }
-
-
-
-
-
 
 }
